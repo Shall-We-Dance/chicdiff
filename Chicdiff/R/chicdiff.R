@@ -1954,7 +1954,7 @@ plotDiffBaits <- function(output, countput, baitmapfile, baits = NULL,
 #---------------------------------------------------#
 
 IHWcorrection <- function(chicdiff.settings, DESeqOut, FullRegionData, DESeqOutControl, FullControlRegionData,
-                          countput, DiagPlot = TRUE, diffbaitPlot = TRUE, suffix = ""){
+                          countput, DiagPlot = TRUE, diffbaitPlot = FALSE, suffix = ""){
   
   baitmapfile = chicdiff.settings[["baitmapfile"]]
   device = chicdiff.settings[["device"]]
