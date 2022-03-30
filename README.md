@@ -22,8 +22,7 @@ Please refer to the Chicdiff R package vignette for more information.
 
 ```{r}
 install.packages("devtools")
-library(devtools)
-install_github("Shall-We-Dance/chicdiff", subdir="Chicdiff")
+devtools::install_github("Shall-We-Dance/chicdiff", subdir="Chicdiff")
 ```
 
 Optionally, install the ChicdiffData package at the same time:
