@@ -33,7 +33,7 @@ devtools::install_github("Shall-We-Dance/chicdiff", subdir="Chicdiff")
 Optionally, install the ChicdiffData package at the same time:
 
 ```{r}
-install_github("RegulatoryGenomicsGroup/chicdiff", subdir="ChicdiffData", force=T)
+devtools::install_github("RegulatoryGenomicsGroup/chicdiff", subdir="ChicdiffData", force=T)
 ```
 
 This strategy downloads the repository multiple times. To avoid this, you can clone the github repo to a local folder and then install both packages using ``devtools::install(<path-to-package>)``.
