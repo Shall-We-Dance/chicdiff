@@ -26,7 +26,6 @@ conda install r-devtools
 2. Install the R packages. An easy way to do this is by using functionality in devtools - run the following R code:
 
 ```{r}
-install.packages("devtools")
 devtools::install_github("Shall-We-Dance/chicdiff", subdir="Chicdiff")
 ```
 
