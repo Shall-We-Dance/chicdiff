@@ -16,7 +16,12 @@ Please refer to the Chicdiff R package vignette for more information.
 
 *Installation instructions*
 
-1. Make sure that you have R version >= 3.4.0. 
+1. Make sure that you have R version >= 4.1.0. 
+
+```
+conda install r-base=4.1
+conda install r-devtools
+```
 
 2. Install the R packages. An easy way to do this is by using functionality in devtools - run the following R code:
 
