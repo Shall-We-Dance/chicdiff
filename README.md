@@ -4,6 +4,8 @@ The original version went wrong on our data, as mentioned [here](https://github.
 
 Forking this repository to change some chicdiff.R scripts before compiling helps.
 
+---
+
 **Chicdiff: A differential caller for Capture Hi-C data** 
 
 Chicdiff is a pipeline for identifying differential Capture Hi-C interactions between two conditions. 
